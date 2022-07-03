@@ -18,3 +18,9 @@ test('gets engineer role', () => {
 
     expect(engineer.getRole()).toEqual('Engineer');
 });
+
+test('gets engineer github username', () => {
+    const engineer = new Engineer('bob','42','bob@company.com','DevBob');
+
+    expect(engineer.getGitHub()).toEqual('DevBob');
+});
