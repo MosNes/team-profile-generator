@@ -1,0 +1,23 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Uses text inputs to generate HTML for a team website that includes a portfolio summary for each employee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosNes/team-profile-generator.git"
+  },
+  "author": "MosNes",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/MosNes/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/MosNes/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.2"
+  }
+}
