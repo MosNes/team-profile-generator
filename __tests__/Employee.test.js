@@ -33,3 +33,10 @@ test('gets employee email address',() => {
     expect(employee.getEmail()).toEqual('bob@company.com');
     expect(employee.getEmail()).toEqual(expect.any(String));
 });
+
+test('gets employee email address',() => {
+    const employee = new Employee('bob','42','bob@company.com');
+    console.log(employee.getRole());
+    expect(employee.getRole()).toEqual('Employee');
+    expect(employee.getRole()).toEqual(expect.any(String));
+});
