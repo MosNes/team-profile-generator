@@ -1,7 +1,3 @@
-//classes for testing
-// const Manager = require('../lib/Manager');
-// const Intern = require('../lib/Intern');
-// const Engineer = require('../lib/Engineer');
 
 // const employeeArray = [
 //     new Engineer('Lambert Glambert','34','lambert@company.com','lamboglambo'), 

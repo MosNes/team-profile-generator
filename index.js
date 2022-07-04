@@ -1,4 +1,6 @@
-const Generator = require('./lib/Generator');
+const Prompts = require('./lib/Prompts');
 
+test = new Prompts;
 
+test.startQuestions();
 
