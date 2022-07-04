@@ -1,6 +1,6 @@
 const Prompts = require('./lib/Prompts');
 
-test = new Prompts;
+newPage = new Prompts;
 
-test.startQuestions();
+newPage.startQuestions();
 
