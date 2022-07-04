@@ -42,8 +42,9 @@
   
   ## Usage
    - Answer the prompts using your terminal.
-   - When you answer "No" to "Would you like to add another team member?" the app will create the HTML file and exit
+   - When you answer "No" to "Would you like to add another team member?" the app will create the HTML file and exit.
    - You can find your finished HTML file in the dist folder inside the root folder.
+   - Here's a video walkthrough: [Walkthrough](https://drive.google.com/file/d/1J3QiqldMuBiCsHR_Hr85dkDnbRGFqq2s/view)
   
   ---
   
