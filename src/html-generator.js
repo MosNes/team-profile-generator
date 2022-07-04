@@ -1,10 +1,3 @@
-
-// const employeeArray = [
-//     new Engineer('Lambert Glambert','34','lambert@company.com','lamboglambo'), 
-//     new Manager('Bob Glombert','35','bob@company.com','100'),
-//     new Intern('Chip Choomba','36','chip@company.com','Night City University')
-// ];
-
 //creates the 3rd element in each employee card based on the employee role
 const createSpecialBox = employee => {
     let role = employee.getRole();
@@ -18,7 +11,7 @@ const createSpecialBox = employee => {
     }
 };
 
-//creates the role subtitle element in each employee card based on the employee role
+//creates the role subtitle and icon element in each employee card based on the employee role
 const createRoleElement = employee => {
     let role = employee.getRole();
 
@@ -74,11 +67,14 @@ const createEmployeeCard = employee => {
     `
 };
 
+//iterates through the employeeArray and creates a card for each employee object
 const createCards = employeeArray => {
    let cardArr = employeeArray.map(createEmployeeCard);
+   //joins each returned card string together into a large HTML string
    return cardArr.join('');
 };
 
+//creates the HTML string for the entire page
 const createHTML = employeeArray => {
     return `
     <!DOCTYPE html>
