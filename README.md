@@ -5,7 +5,12 @@
   ![team-profile-generator](https://img.shields.io/github/languages/top/MosNes/team-profile-generator)
 
   ![team-profile-generator](https://img.shields.io/github/languages/count/MosNes/team-profile-generator)
-  
+
+  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   
   ## Description
   Uses text inputs to generate HTML for a team website that includes a portfolio summary for each employee.
